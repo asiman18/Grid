@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Flexboy{
+    padding-top: 3%;
+      
+}
+.container{
+  margin: 0 auto;
+  width: 60%;
+  height: 650px;
+  background-color: white;
+  display: grid;
+  gap: 3px;
+  
+  
+  grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+  grid-template-areas: 
+                      'bir iki iki uc uc dord'
+                      'bes iki iki uc uc alti'
+                      'yeddi sekiz dokuz uc uc on'
+                      'onbir onbir onbir uc uc oniki';
+}
+.container > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.items1 {
+  grid-area: bir; 
+  background-color: salmon;
+}
+.items2 {
+  grid-area: iki;
+  background-color: gold;
+}
+.items3 {
+  grid-area: uc;
+  background-color: brown;
+}
+.items4 {
+  grid-area: dord;
+  background-color: chartreuse;
+}
+.items5 {
+  grid-area: bes;
+  background-color: crimson;
+}
+.items6 {
+  grid-area: alti;
+  background-color: blue;
+}
+.items7 {
+  grid-area: yeddi;
+  background-color: darkmagenta;
+}
+.items8 {
+  grid-area: sekiz;
+  background-color: coral;
+}
+.items9 {
+  grid-area: dokuz;
+  background-color: orangered;
+}
+.items10 {
+  grid-area: on;
+  background-color: lime;
+}
+.items11 {
+  grid-area: onbir;
+  background-color: sienna;
+}
+.items12 {
+  grid-area: oniki;
+  background-color: tomato;
+}
